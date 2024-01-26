@@ -60,3 +60,69 @@ gap: 10px;
 .prep-data > h3{
   color: purple;
 }
+.prep-data > ul{
+  color: rgb(91, 89, 91);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.prep-data > ul li::marker{
+color: purple;
+}
+
+.recipe-ingredients{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.recipe-ingredients > h2{
+  font-family: 'Young Serif';
+  color: rgb(138, 68, 11);
+}
+.recipe-ingredients > ul{
+  color: rgb(91, 89, 91);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.recipe-ingredients > ul li::marker{
+  color: rgb(138, 68, 11);
+}
+.recipe-instructions{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.recipe-instructions > h2{
+  font-family: 'Young Serif';
+  color: rgb(138, 68, 11);
+}
+.recipe-instructions > ol{
+  color: rgb(91, 89, 91);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.recipe-instructions > ol li::marker{
+  color: rgb(138, 68, 11);
+}
+.recipe-nutrition{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.data{
+  display: flex;
+  border: solid 2px black;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  justify-content: space-around;
+}
+.recipe-nutrition > h2{
+  font-family: 'Young Serif';
+  color: rgb(138, 68, 11);
+}
+
