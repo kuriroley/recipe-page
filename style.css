@@ -14,18 +14,19 @@
 body{
   display: flex;
   font-family: 'Outfit';
-  background-color: antiquewhite;
+  background: -moz-linear-gradient(rgba(137, 137, 84, 0.445),rgba(239, 139, 67, 0.52));
   justify-content: center;
   align-content: center;
   min-height: 100vh;
+  padding: 10px;
 }
 .container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.776);
   padding: 50px;
-  width: min(100%, 1000px);
+  width: min(100%, 700px);
   border-radius: 20px;
   gap: 20px;
 }
@@ -42,7 +43,8 @@ body{
 }
 .recipe-title > h1{
   font-family: 'Young Serif';
-  color: rgb(97, 93, 93);
+  font-size: 2.2rem;
+  color: rgb(72, 70, 70);
 }
 .recipe-title > p{
   text-align: start;
