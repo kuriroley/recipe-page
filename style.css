@@ -31,14 +31,14 @@ body{
 }
 .picture{
   align-self: center;
-  width: 900px;
-  height: 500px;
+  width: 100%;
+  height: auto;
   border-radius: 20px;
 }
 .recipe-title {
-display: flex;
-flex-direction: column;
-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .recipe-title > h1{
   font-family: 'Young Serif';
@@ -67,7 +67,7 @@ gap: 10px;
   gap: 10px;
 }
 .prep-data > ul li::marker{
-color: purple;
+  color: purple;
 }
 
 .recipe-ingredients{
@@ -117,6 +117,7 @@ color: purple;
   display: flex;
   border: solid 2px black;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
   padding: 20px;
   justify-content: space-around;
