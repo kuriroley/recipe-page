@@ -1,3 +1,62 @@
 @import url(https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit);
+/* Variables */
+:root{
+  --font-family:'Outfit', 'Young Serif';
+}
 
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body{
+  display: flex;
+  font-family: 'Outfit';
+  background-color: antiquewhite;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 50px;
+  width: min(100%, 1000px);
+  border-radius: 20px;
+  gap: 20px;
+}
+.picture{
+  align-self: center;
+  width: 900px;
+  height: 500px;
+  border-radius: 20px;
+}
+.recipe-title {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.recipe-title > h1{
+  font-family: 'Young Serif';
+  color: rgb(97, 93, 93);
+}
+.recipe-title > p{
+  text-align: start;
+  color: gray;
+}
+
+.prep-data{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(187, 108, 187, 0.097);
+  padding: 40px;
+  margin-top: 20px;
+}
+.prep-data > h3{
+  color: purple;
+}
